@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "81231991666",
+    "project_id": "bus-locator-app-e2b6e",
+    "storage_bucket": "bus-locator-app-e2b6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81231991666:android:980b9b9282128fa8c003eb",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlgPiTzCOZma83a1o5FRzdyMTzWNnIhDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

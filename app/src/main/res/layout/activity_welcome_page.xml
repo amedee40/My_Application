@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".Welcome_page">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.SplashScreen">
+
+
+        <Button
+            android:id="@+id/driver"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="644dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="27dp"
+            android:text="Driver"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="559dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="111dp"
+            android:text="User"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="303dp"
+            android:layout_height="345dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="359dp"
+            app:srcCompat="@drawable/one" />
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="349dp"
+            android:layout_height="127dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="395dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="208dp"
+            android:text="Welcome to bus locator app  your app to schedule your day.\nin every minutes track your bus😊"
+            android:textColorHighlight="@color/white"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

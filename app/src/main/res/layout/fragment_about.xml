@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back2"
+    tools:context=".AboutFragment"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="237dp"
+        android:layout_height="136dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/one" />
+
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_below="@id/appLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/aboutDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutTitle"
+        android:layout_marginTop="56dp"
+        android:text="Welcome to Bus Locator - your go-to bus locator app! We are dedicated to providing you with a seamless and stress-free commuting experience.\n\nOur mission is to simplify your journey by offering real-time bus location information. With us, you can stay informed about your bus's current location, plan your trips more efficiently, and experience a hassle-free commute every day."
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold|normal" />
+
+</RelativeLayout>
